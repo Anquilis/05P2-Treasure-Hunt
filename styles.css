@@ -1,0 +1,19 @@
+/* how to separate buttons */
+#sells {width: 200px;}
+
+#treasure {width:300px;}
+
+body {text-align: center;}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttonContainer {
+    display: block;
+    display: flex;
+    justify-content: space-around;
+}
